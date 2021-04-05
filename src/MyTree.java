@@ -1,10 +1,13 @@
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MyTree {
 	private String tree;
 
-	private final static boolean DEBUG = true;
+	private final static boolean DEBUG = false;
 	private final static boolean INCLUDE_REMINDING = true;
 
 	public MyTree(String tree) {
@@ -80,7 +83,7 @@ public class MyTree {
 	 * @param value - a tree representation. Like ((1,2),3)
 	 * @return a String array of 2 elements: [0] = left and [1] = right
 	 */
-	private String[] split(String value) {
+	public static String[] split(String value) {
 		String left = "";
 		String right = "";
 
@@ -99,8 +102,8 @@ public class MyTree {
 	/**
 	 * Returns the index of the comma on the first level.
 	 * 
-	 * Ex: 012345678<br> 
-	 *     ((a,b),c)<br>
+	 * Ex: 012345678<br>
+	 * ((a,b),c)<br>
 	 * 
 	 * <ul>
 	 * <li>has a comma at position 3, but on level 2.
@@ -110,7 +113,7 @@ public class MyTree {
 	 * @param value - a tree representation. Like ((1,2),3)
 	 * @return index of level 1 comman, or -1 if not found.
 	 */
-	private int indexOfComma(String value) {
+	public static int indexOfComma(String value) {
 		int level = 0;
 
 		for (int idx = 0; idx < value.length(); idx++) {
@@ -134,7 +137,7 @@ public class MyTree {
 	 * @param value - the value to test.
 	 * @return true if it is a leaf, and false if it is a tree representation.
 	 */
-	private boolean isLeaf(String value) {
+	public static boolean isLeaf(String value) {
 		return !value.startsWith("(");
 	}
 
@@ -148,17 +151,38 @@ public class MyTree {
 	}
 
 	public static void main(String[] args) {
-//		test("((((1,2),(3,4)),((5,6),(7,8))),17)", "0000001001001");
-		test("(((1,(2,3)),((4,(5,6)),(7,8))),17)", "0000010010111");
+		TreeFormatter formatter = new DotTreeFormatter();
+
+		MyTree t1 = new MyTree("((1,2),3)");
+		MyTree t2 = new MyTree("((((1,2),(3,4)),((5,6),(7,8))),17)");
+		MyTree t3 = new MyTree("((((1,2),(3,4)),((5,6),((7,8),9))),17)");
+		MyTree t4 = new MyTree(formatter.parseTree(loadFile("tree.trxt")));
+
+		MyTree t = t3;
+
+		find(t, "001001100");
+
+		formatter.printTree(System.out, t);
 	}
-	
-	public static void test(String tree, String path) {
-		MyTree t = new MyTree(tree);
+
+	public static void find(MyTree t, String path) {
 		List<String> values = t.getValues(path);
 		System.out.println();
 		System.out.println("tree : " + t);
 		System.out.println("path : " + path);
 		System.out.println("value: " + values);
+	}
+
+	public static List<String> loadFile(String filename) {
+		Path path = Path.of("/Users/adalbero/eclipse-workspace/Playground/src", filename);
+
+		try {
+			String content = new String(Files.readAllBytes(path), Charset.defaultCharset());
+			return List.of(content.split("\n"));
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			return null;
+		}
 	}
 
 }
