@@ -1,0 +1,45 @@
+{
+  "id": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/preview-urls",
+  "title": "Preview urls on object: 090f45538011be79",
+  "author": [
+    {
+      "name": "Open Text Documentum"
+    }
+  ],
+  "page": 1,
+  "items-per-page": 10000,
+  "total": 1,
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/preview-urls"
+    }
+  ],
+  "entries": [
+    {
+      "id": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/preview-urls",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/preview-urls"
+        }
+      ],
+      "content": {
+        "pageCount": 0,
+        "pageServingUrl": false,
+        "format": "pdf",
+        "url": "https://esops-devapp.eu.novartis.net/D2-REST/servlet/Download?uid=context_rest_202205231423588394572045&_docbase=esopdevapp&_username=ESOPS-D2_1QEM_DEVAPP&_password=AAAAEIgFgCwAkFJruLNqch%2FHDTj28gHEUXgbiT9X81Idwxk8V2RSBDBnjO8OeyxVkvH4EGErQEb1TK3TxsGo9iSFHZrOoKo%2FuYko9vqaWcpEYuDSVzplP1%2BohNB670ilgQZYvGrrR%2Bd0%2F%2Bax%2B3Ku53JWbiNuxHL93lh%2FxuUQhAhSAKOEYefmDHUZJuEWDpad3yRPTz9Fyk6LMZyxOXJ%2BdnO0zi5pXJbRXyQGO2sPFu%2BtGqxawdz7mCGLyzKMtRC1vjBQxaKicx56EX1DqCF5zD%2BkVeptc5ELeNkMjfL5W1Q6oEB0UfGg01DPLbNNeq9Fyu568i3ez0Kxo%2Bv0%2BdvfESydFIYQlXbbwOAoOKooicl84Vg5JfdagC8LRR2VpZnkoDx0lhpxodz7LBAQqd7R%2FSWvkKXa1%2FbVUzbQ%2FAzgxRGZRX0QGNpbMvfet35cXlcfCcAx82VuXDKVNgsFEYmn6mbcfvRuTUsQtc1xSZXKR1CSgCiT1UCYt5CKDOKwmLii7V82WanU9xC603lzMCHO7%2Fw2RPjT4Y3zAuePQambcucp1jCoRRgQHGZEb6jG9ouDrfvrV253C3SB42TW2OehSXQVREsKjZR3HaSqDkfb%2BpHVB8UjZdg1hAg5QyOeZN%2Fxc39aKLZHUEN0s%2BojbHsCeaROJ1v5d1rZkTfFWPki4o9XXZ%2BkR%2FRCKS06dNqhS1q57vf%2FhrpAVgjOV13r9MheXwp8JGj0odcOx7gwp2pZYR%2BuceKaDYR%2BjTd6B%2F3FrHdlXm6qPQzGxN6XjSaNyog92WEhV8RgA2GL8watzTFaZozzJGD%2FAY71er0xjOwml2GbfQmGMplbd4YY0JFciFyjlDqdmyFDzhdJQsRcK5nnfSbFwTtvi%2FN0VF1pasIy%2B9Nep%2Ba6ehF354iZdkhDlJ9OGfkV8uSVUSH6IuJlu4npgIxmQi0x&_locale=en&id=090f45538011be79&format=_DEFAULT_&event_name=d2_view&hasRelate=0&c2_config_name=C2VC+-+Effective+normal-UTC+for+FRMs&content_disposition=inline",
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/preview-urls"
+          },
+          {
+            "rel": "parent",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/folders/0b0f4553800ea740"
+          }
+        ]
+      }
+    }
+  ]
+}

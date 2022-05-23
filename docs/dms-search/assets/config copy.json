@@ -1,0 +1,383 @@
+{
+  "dctm": {
+    "rest_url": "https://esops-devapp.eu.novartis.net/D2-REST",
+    "d2_url": "https://esops-devapp.eu.novartis.net/D2",
+    "system": "ESOPS-D2 (DEVAPPCT)",
+    "repository": "esopdevapp",
+    "token": "U2FsdGVkX1+xseWeOIa+/fgfA6wz7NihRCi8M+sBXegTIJRW9AoY3j+aIGffkMRa",
+    "deploy": "dev"
+  },
+  "application": {
+    "name": "esops",
+    "title": "DMSDocFinder",
+    "banner": "assets/DMSDocFinder.png",
+    "show_version": true,
+    "help_link": "https://share.novartis.net/:b:/r/sites/GxP_DMS/ESOPS%20D2%20FAQ/DMSDocFinder%20Manual.pdf",
+    "default_datetime_format": "dd-MMM-yyyy",
+    "datasources": [
+      {
+        "name": "_status_options",
+        "type": "static",
+        "cache": true,
+        "options": [
+          { "value": "Effective", "label": "EF" },
+          { "value": "Effective Import", "label": "EI" },
+          { "value": "In Training", "label": "FT" }
+        ]
+      },
+      {
+        "name": "interval_years",
+        "type": "cache",
+        "cache": true,
+        "dictionary": {
+          "name": "DIC - PeriodicReviewInterval",
+          "locale": "en"
+        }
+      },
+      {
+        "name": "languages",
+        "type": "cache",
+        "cache": true,
+        "dictionary": {
+          "name": "DIC - Languages",
+          "alias": "label"
+        }
+      },
+      {
+        "name": "scopes",
+        "type": "dynamic",
+        "table": {
+          "name": "esops_scope",
+          "attr_name": "scope_group_name",
+          "attr_label": "folder_path"
+        }
+      },
+      {
+        "name": "users",
+        "type": "dynamic",
+        "table": {
+          "name": "esops_user",
+          "attr_name": "user_name",
+          "attr_label": "description"
+        }
+      }
+    ],
+    "attribute_defs": [
+      {
+        "name": "object_name",
+        "label": "Document Number"
+      },
+      {
+        "name": "title",
+        "label": "Document Title"
+      },
+      {
+        "name": "r_version_label",
+        "label": "Version Labels",
+        "repeating": true
+      },
+      {
+        "name": "lc_state",
+        "label": "Document Lifecycle Status"
+      },
+      {
+        "name": "document_language",
+        "label": "Document Language",
+        "datasource": "languages"
+      },
+      {
+        "name": "document_type",
+        "label": "Document Type"
+      },
+      {
+        "name": "document_subtype",
+        "label": "Document Subtype"
+      },
+      {
+        "name": "english_title",
+        "label": "English Title"
+      },
+      {
+        "name": "responsible_author",
+        "label": "Responsible Author",
+        "datasource": "users"
+      },
+      {
+        "name": "gxp_relevant",
+        "label": "GxP Relevant"
+      },
+      {
+        "name": "qm_reference",
+        "label": "QM Reference(s) / CoE",
+        "repeating": true
+      },
+      {
+        "name": "effective_date",
+        "label": "Effective Date",
+        "type": "datetime",
+        "format": "dd-MMM-yyyy"
+      },
+      {
+        "name": "proposed_effective_date",
+        "label": "Proposed Effective Date",
+        "type": "datetime",
+        "format": "dd-MMM-yyyy"
+      },
+      {
+        "name": "next_periodic_review_date",
+        "label": "Next Periodic Review Date",
+        "type": "datetime",
+        "format": "dd-MMM-yyyy"
+      },
+      {
+        "name": "last_periodic_review_date",
+        "label": "Last Periodic Review Date",
+        "type": "datetime",
+        "format": "dd-MMM-yyyy"
+      },
+      {
+        "name": "periodic_review_interval",
+        "label": "Periodic Review Interval",
+        "datasource": "interval_years"
+      },
+      {
+        "name": "legacy_doc_number",
+        "label": "Legacy Document Number"
+      },
+      {
+        "name": "owner_department",
+        "label": "Owner Department",
+        "datasource": "scopes"
+      },
+      {
+        "name": "scope",
+        "label": "Assigned Scope(s)",
+        "datasource": "scopes"
+      },
+      {
+        "name": "_name",
+        "label": "Document Number",
+        "sort": "object_name"
+      },
+      {
+        "name": "_version",
+        "label": "Document Version",
+        "sort": "r_object_id"
+      },
+      {
+        "name": "_status",
+        "label": "Document Lifecycle State",
+        "alias": "lc_state"
+      },
+      {
+        "name": "_status_code",
+        "label": "State code",
+        "value": "$value(lc_state, _status_options)"
+      },
+      {
+        "name": "_repo",
+        "label": "Document Source"
+      },
+      {
+        "name": "_score",
+        "label": "Search Score",
+        "type": "score",
+        "sort": "score"
+      },
+      {
+        "name": "_summary",
+        "label": "Summary"
+      },
+      {
+        "name": "_fulltext",
+        "label": "Fulltext"
+      },
+      {
+        "name": "_qualification",
+        "label": "Qualification",
+        "value": "({_version}) $value(lc_state)"
+      }
+    ],
+    "table_attributes": [
+      "title",
+      "document_subtype",
+      "responsible_author",
+      "owner_department",
+      "scope",
+      "document_language",
+      "document_type",
+      "effective_date",
+      "english_title",
+      "gxp_relevant",
+      "periodic_review_interval",
+      "last_periodic_review_date",
+      "legacy_doc_number",
+      "next_periodic_review_date",
+      "proposed_effective_date",
+      "qm_reference",
+      "r_version_label",
+      "_score",
+      "_repo",
+      "_summary"
+    ],
+    "default_attributes": [
+      "title",
+      "document_subtype",
+      "responsible_author",
+      "owner_department",
+      "effective_date"
+    ],
+    "property_attributes": [
+      "_name",
+      "_version",
+      "lc_state",
+      "title",
+      "document_subtype",
+      "responsible_author",
+      "owner_department",
+      "scope",
+      "document_language",
+      "document_type",
+      "effective_date",
+      "english_title",
+      "gxp_relevant",
+      "periodic_review_interval",
+      "last_periodic_review_date",
+      "legacy_doc_number",
+      "next_periodic_review_date",
+      "proposed_effective_date",
+      "qm_reference"
+    ],
+    "facet_attributes": [
+      "document_type",
+      "document_subtype",
+      "lc_state",
+      "responsible_author",
+      "owner_department"
+    ],
+    "assets": {
+      "icons_folder": "icons",
+      "icons": [
+        {
+          "file": "info32.png",
+          "type": "info"
+        },
+        {
+          "file": "folder32.png",
+          "type": "folder"
+        },
+        {
+          "file": "aempdf32.png",
+          "format_regexp": "aempdf"
+        },
+        {
+          "file": "pdf32.png",
+          "format_regexp": "pdf"
+        },
+        {
+          "file": "text32.png",
+          "format_regexp": "text"
+        },
+        {
+          "file": "img32.png",
+          "format_regexp": "image|tiff|jpeg"
+        },
+        {
+          "file": "doc32.png",
+          "format_regexp": "msw|wordprocessingml|ms word"
+        },
+        {
+          "file": "xls32.png",
+          "format_regexp": "excel|spreadsheetml"
+        },
+        {
+          "file": "ppt32.png",
+          "format_regexp": "powerpoint|ppt"
+        },
+        {
+          "file": "zip32.png",
+          "format_regexp": "zip"
+        },
+        {
+          "file": "unknown32.png",
+          "type": "unknown"
+        }
+      ]
+    }
+  },
+  "search": {
+    "type": "esops_doc",
+    "all_versions": true,
+    "page_size_options": [25, 50, 100],
+    "page_size": 25,
+    "max_items_per_page": 10000,
+    "max_results": 10000,
+    "expressions": [
+      {
+        "type": "term",
+        "attr": "_fulltext",
+        "operator": "FULLTEXT",
+        "value": ""
+      },
+      {
+        "type": "internal",
+        "attr": "lc_state",
+        "operator": "IN",
+        "value": ["Effective", "Effective Import", "In Training"],
+        "case_sensitive": true
+      },
+      {
+        "type": "filter",
+        "attr": "object_name",
+        "operator": "CONTAINS",
+        "value": ""
+      },
+      {
+        "type": "filter",
+        "attr": "title",
+        "operator": "CONTAINS",
+        "value": ""
+      },
+      {
+        "type": "filter",
+        "attr": "english_title",
+        "operator": "CONTAINS",
+        "value": ""
+      },
+      {
+        "type": "filter",
+        "attr": "legacy_doc_number",
+        "operator": "CONTAINS",
+        "value": ""
+      },
+      {
+        "type": "filter",
+        "attr": "document_language",
+        "operator": "EQUAL",
+        "value": "",
+        "control": "select"
+      },
+      {
+        "type": "filter",
+        "attr": "responsible_author",
+        "operator": "CONTAINS",
+        "value": "",
+        "control": "select"
+      },
+      {
+        "type": "filter",
+        "attr": "owner_department",
+        "operator": "CONTAINS",
+        "value": "",
+        "control": "select"
+      },
+      {
+        "type": "filter",
+        "attr": "scope",
+        "operator": "CONTAINS",
+        "value": "",
+        "control": "select"
+      }
+    ]
+  }
+}

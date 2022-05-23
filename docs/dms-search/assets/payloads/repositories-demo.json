@@ -1,0 +1,15 @@
+{
+  "id": 1000571,
+  "name": "demo",
+  "description": "ESOPS DEVINTCT Repository",
+  "auth-protocol": "",
+  "servers": [
+    {
+      "name": "demo",
+      "host": "cs-0",
+      "version": "20.2.0003.0116  Linux64.Oracle",
+      "docbroker": "cs-1"
+    }
+  ],
+  "links": []
+}

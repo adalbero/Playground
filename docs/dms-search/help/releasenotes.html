@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Release Notes</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <h1>DMS DocFinder - Release notes</h1>
+
+      <hr />
+      <h2>Version 0.7.9 (08/Apr/2022)</h2>
+      <pre>
+- [upd] Code - Improved performance on big lookups, like "users"
+- [new] Layout - Help menu item
+- [del] Layout - removed "Close" button on Open Document (download/error). 
+  - Security policy prevent JS to close a tab.
+- [new] Layout - new bunner image
+</pre
+      >
+      <hr />
+      <h2>Version 0.7.8 (01/Apr/2022)</h2>
+      <pre>
+- [upd] Open - open/download FORMs native PDF
+- [upd] Preferences - normalized preference names
+- [upd] Config - separated properties attributes and result attributes
+</pre
+      >
+      <hr />
+      <h2>Version 0.7.7 (28/Mar/2022)</h2>
+      <pre>
+- [fix] Context Menu - Download PDF (with overlays)
+- [upd] Context Menu - Label "Relations" and "Properties"
+- [del] Context Menu - Removed "Locate document in D2"
+- [upd] Context Menu - "Copy PDF link to clipboard
+- [new] Context Menu - "Copy native link to clipboard"
+- [new] Main Menu - Clear Cache
+- [upd] Layout - Normalized attribute labels, as in URS
+- [upd] Layout - Next/Last Periodic Review dates without time
+- [upd] Layout - Periodic Review Interval in years
+- [inf] Search - Case insensitive - All search fields are already case-insensitive
+- [upd] Result - Initial columns values, as in URS
+- [upd] Result - Default attributes Name, Version and State 
+                 removed from Customize Columns
+- [upd] Result - Updated list of attributes used on Properties and Custom Columns, 
+                 as in URS
+- [upd] Open - Document URL: {name}_{status}.{format}
+- [new] Open - Download native format for FORM
+</pre
+      >
+
+      <hr />
+      <h2>Version 0.7.6 (18/Mar/2022)</h2>
+      <ul>
+        <li>
+          <span class="code">[new]</span>
+          <a href="#adaptative_layout">Adaptative layout</a>
+        </li>
+      </ul>
+
+      <a id="adaptative_layout"></a>
+      <h3>Adaptative layout</h3>
+      <table class="table">
+        <tr>
+          <th>&nbsp;</th>
+          <th>Small</th>
+          <th>Medium</th>
+          <th>Large</th>
+        </tr>
+        <tr>
+          <th>Width</th>
+          <td>width &lt; 600px</td>
+          <td>600px &le; width &lt; 960px</td>
+          <td>width &ge; 960px</td>
+        </tr>
+        <tr>
+          <th>Devices</th>
+          <td>Phone portrait</td>
+          <td>Phone landscape<br />Tablet portrait</td>
+          <td>Tablet landscape<br />Desktop</td>
+        </tr>
+        <tr>
+          <th>Fulltext search</th>
+          <td colspan="2">on search form</td>
+          <td>on top</td>
+        </tr>
+        <tr>
+          <th>Search form</th>
+          <td colspan="2">foating<br />hide on search</td>
+          <td>on left<br />can be toggled</td>
+        </tr>
+        <tr>
+          <th>Custom Columns</th>
+          <td>one custom column</td>
+          <td colspan="2">multiple custom columns</td>
+        </tr>
+        <tr>
+          <th>Print / Export</th>
+          <td>buttons with text only</td>
+          <td colspan="2">buttons with icon and text</td>
+        </tr>
+      </table>
+      <br />
+      <b>Large</b>
+      <img
+        src="./media/search-form-toggle-large.gif"
+        alt="Search Form Toggle"
+      />
+      <br /><br />
+      <div class="grid">
+        <div>
+          <b>Medium</b>
+          <img
+            src="./media/search-form-toggle-medium.gif"
+            alt="Search Form Toggle"
+          />
+        </div>
+        <div>&nbsp;</div>
+        <div>
+          <b>Small</b>
+          <img
+            src="./media/search-form-toggle-small.gif"
+            alt="Search Form Toggle"
+          />
+        </div>
+      </div>
+
+      <hr />
+      <h2>Version 0.7.5 (04/Mar/2022)</h2>
+      <ul>
+        <li>
+          <span class="code">[new]</span>
+          Search - Favorites / Saved Search
+        </li>
+        <li>
+          <span class="code">[new]</span>
+          Result - Print/Export all results
+        </li>
+        <li>
+          <span class="code">[upd]</span>
+          Facets - Highlight selected facet
+        </li>
+        <li>
+          <span class="code">[new]</span>
+          Layout - Improvments
+        </li>
+      </ul>
+
+      <hr />
+      <h2>Version 0.7.4 (25/Apr/2022)</h2>
+      <ul>
+        <li>
+          <span class="code">[new]</span>
+          Result - Paginator
+        </li>
+        <li>
+          <span class="code">[new]</span>
+          Search - Restore last search on startup
+        </li>
+        <li>
+          <span class="code">[upd]</span>
+          Document - Open URL better error handling. Document not found
+        </li>
+        <li>
+          <span class="code">[upd]</span>
+          Document - Open URL better error handling. Document not latest
+        </li>
+        <li>
+          <span class="code">[upd]</span>
+          Document - Native content can only download. Can't open native content
+          (FRM)
+        </li>
+        <li>
+          <span class="code">[new]</span>
+          Layout - aempdf icon
+        </li>
+        <li>
+          <span class="code">[new]</span>
+          Layout - Fav icon
+        </li>
+        <li>
+          <span class="code">[upg]</span>
+          Layout - Reduced otpion height in select box and facets
+        </li>
+        <li>
+          <span class="code">[upg]</span>
+          Core - More cache to improve performance
+        </li>
+      </ul>
+
+      <hr />
+      <h2>Version 0.7.3 (2022-02b)</h2>
+      <pre>
+- [upg] Search - Full text search bar on top 
+- [new] Search - Full text Suggestion and History 
+- [fix] Search - Searby by Name and Title now supports '\*' 
+- [new] Result - Customizable columns 
+- [del] Result - Removed highlight. Too much false positive. 
+- [new] Menu - Export to CSV - [new] Menu - Copy link to clipbloard 
+- [new] Menu - Locate in D2 
+- [upg] Layout - Improve Result bar layout 
+- [new] Layout - Reduced row height 
+- [fix] Document - Open URL - PDF with C2 overlays 
+- [new] Document - Open URL - Redirect to newer version, if available. 
+- [upg] Core - Improve startup time 
+- [del] Dashboard - Removed dashboard
+    </pre
+      >
+
+      <hr />
+      <h2>Version 0.7.2 (2022-02a)</h2>
+      <pre>
+- [new] Result - Cache lookup values (user, scope, langages) 
+- [new] Search - Select controls 
+- [new] Document - Relations Viewer 
+- [new] Document - Open URL with name/version/state/format
+    </pre
+      >
+
+      <hr />
+      <h2>Version 0.7.1 (2022-01)</h2>
+      <pre>
+- [new] Search - Facets 
+- [new] Search - Sort 
+- [new] Search - Paging (first 25 or all) 
+- [new] Result - Table menu 
+- [new] Menu - Export to Excel 
+- [new] Core - Embedded Material Icon Font
+    </pre
+      >
+
+      <hr />
+      <h2>Version 0.7.0 (2021-12)</h2>
+      <pre>
+- [new] Core - Configurable 
+- [new] Search - Advanced form 
+- [new] Search - Fulltext search 
+- [new] Open - PDF Viewer 
+- [new] Document - Properties Viewer 
+- [new] Dashboard - Samples
+      </pre>
+    </div>
+    <br />
+  </body>
+</html>

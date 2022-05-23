@@ -1,0 +1,148 @@
+{
+  "dctm": {
+    "rest_url": "assets/payloads",
+    "d2_url": "Search",
+    "system": "DEMO",
+    "repository": "demo",
+    "token": "",
+    "deploy": "dev"
+  },
+  "application": {
+    "name": "demo",
+    "title": "DMS Search",
+    "banner": "",
+    "show_version": true,
+    "help_link": "",
+    "default_datetime_format": "dd-MMM-yyyy",
+    "datasources": [],
+    "attribute_defs": [
+      {
+        "name": "object_name",
+        "label": "Name"
+      },
+      {
+        "name": "title",
+        "label": "Title"
+      },
+      {
+        "name": "r_version_label",
+        "label": "Version",
+        "repeating": true
+      },
+      {
+        "name": "_name",
+        "label": "Name",
+        "sort": "object_name"
+      },
+      {
+        "name": "_version",
+        "label": "Version",
+        "sort": "r_object_id"
+      },
+      {
+        "name": "_repo",
+        "label": "Source"
+      },
+      {
+        "name": "_score",
+        "label": "Score",
+        "type": "score",
+        "sort": "score"
+      },
+      {
+        "name": "_summary",
+        "label": "Summary"
+      },
+      {
+        "name": "_fulltext",
+        "label": "Fulltext"
+      },
+      {
+        "name": "_qualification",
+        "label": "Qualification",
+        "value": "({_version})"
+      }
+    ],
+    "table_attributes": ["title", "_score", "_repo", "_summary"],
+    "default_attributes": ["title"],
+    "property_attributes": ["_name", "_version", "title"],
+    "facet_attributes": [],
+    "assets": {
+      "icons_folder": "icons",
+      "icons": [
+        {
+          "file": "info32.png",
+          "type": "info"
+        },
+        {
+          "file": "folder32.png",
+          "type": "folder"
+        },
+        {
+          "file": "aempdf32.png",
+          "format_regexp": "aempdf"
+        },
+        {
+          "file": "pdf32.png",
+          "format_regexp": "pdf"
+        },
+        {
+          "file": "text32.png",
+          "format_regexp": "text"
+        },
+        {
+          "file": "img32.png",
+          "format_regexp": "image|tiff|jpeg"
+        },
+        {
+          "file": "doc32.png",
+          "format_regexp": "msw|wordprocessingml|ms word"
+        },
+        {
+          "file": "xls32.png",
+          "format_regexp": "excel|spreadsheetml"
+        },
+        {
+          "file": "ppt32.png",
+          "format_regexp": "powerpoint|ppt"
+        },
+        {
+          "file": "zip32.png",
+          "format_regexp": "zip"
+        },
+        {
+          "file": "unknown32.png",
+          "type": "unknown"
+        }
+      ]
+    }
+  },
+  "search": {
+    "type": "esops_doc",
+    "all_versions": true,
+    "page_size_options": [25, 50, 100],
+    "page_size": 25,
+    "max_items_per_page": 10000,
+    "max_results": 10000,
+    "expressions": [
+      {
+        "type": "term",
+        "attr": "_fulltext",
+        "operator": "FULLTEXT",
+        "value": ""
+      },
+      {
+        "type": "filter",
+        "attr": "object_name",
+        "operator": "CONTAINS",
+        "value": ""
+      },
+      {
+        "type": "filter",
+        "attr": "title",
+        "operator": "CONTAINS",
+        "value": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "name": "document",
+  "type": "esops_doc",
+  "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+  "properties": {
+    "object_name": "FRM-8076169",
+    "r_object_type": "esops_doc",
+    "title": "load 0415 021410",
+    "subject": "LOAD",
+    "authors": ["SITE_A_Author04"],
+    "r_creation_date": "2022-04-18T02:14:10.000+00:00",
+    "r_modify_date": "2022-04-20T11:29:50.000+00:00",
+    "r_modifier": "HPA_GUIMAAD2",
+    "a_is_hidden": false,
+    "i_is_deleted": false,
+    "a_archive": false,
+    "a_link_resolved": false,
+    "i_reference_cnt": 2,
+    "i_has_folder": true,
+    "i_folder_id": ["0b0f4553800ea740", "0b0f45538004fd48"],
+    "r_link_cnt": 0,
+    "r_link_high_cnt": 0,
+    "r_assembled_from_id": "0000000000000000",
+    "r_frzn_assembly_cnt": 0,
+    "r_has_frzn_assembly": false,
+    "r_is_virtual_doc": 0,
+    "i_contents_id": "060f4553800c0fc6",
+    "a_content_type": "msw12",
+    "r_page_cnt": 1,
+    "r_content_size": 302585,
+    "a_full_text": true,
+    "a_storage_type": "filestore_01",
+    "i_cabinet_id": "0c0f45538000252b",
+    "owner_name": "HPA_GUIMAAD2",
+    "owner_permit": 6,
+    "group_permit": 1,
+    "world_permit": 3,
+    "i_antecedent_id": "0000000000000000",
+    "i_chronicle_id": "090f45538011be79",
+    "i_latest_flag": true,
+    "r_version_label": ["1.0", "CURRENT"],
+    "i_branch_cnt": 0,
+    "i_direct_dsc": false,
+    "r_immutable_flag": false,
+    "r_frozen_flag": false,
+    "r_has_events": false,
+    "acl_domain": "esopdevapp",
+    "acl_name": "d2_484cec55_7a9f151",
+    "i_is_reference": false,
+    "r_creator_name": "HPA_GUIMAAD2",
+    "r_is_public": true,
+    "r_policy_id": "0000000000000000",
+    "r_resume_state": 0,
+    "r_current_state": 0,
+    "r_alias_set_id": "0000000000000000",
+    "a_is_template": false,
+    "r_full_content_size": 302585.0,
+    "a_is_signed": false,
+    "i_partition": 0,
+    "i_is_replica": false,
+    "i_vstamp": 90,
+    "document_type": "FRM",
+    "document_subtype": "Form",
+    "responsible_author": "SITE_A_Author04",
+    "effective_date": "2022-04-18T00:00:00.000+00:00",
+    "scope": ["cpo-load-site_a-dep2"],
+    "owner_department": "cpo-load-site_a-dep2",
+    "lc_history_state": ["Effective"],
+    "lc_state": "Effective",
+    "document_language": "de",
+    "mig_object_id": "0000000000000000",
+    "mig_chronicle_id": "0000000000000000",
+    "last_periodic_review_date": "2022-04-18T00:00:00.000+00:00",
+    "periodic_review_interval": 12,
+    "pr_notification_suppress": false,
+    "next_periodic_review_date": "2023-04-18T00:00:00.000+00:00",
+    "pr_overdue_stamp": false,
+    "lc_name": "Create",
+    "lc_history_date": ["2022-04-18T02:14:11.000+00:00"],
+    "auto_users_sm": "cpo-load-site_a-dep2_sm",
+    "auto_users_od": "cpo-load-site_a-dep2_od",
+    "auto_wf_supervisor": "090f45538011be79",
+    "wpdf_checksum": "SHA-1_7fc9c5df0b49c608143fe8bbd713b90fdd5135f3",
+    "is_migrated": false,
+    "mig_controlled_print_count": 0,
+    "is_overlay_mask_req": false,
+    "is_pro_source_doc": false,
+    "is_effe_after_mig": false,
+    "is_protected": false,
+    "service_response": 0,
+    "is_template": false,
+    "is_gxp": true,
+    "r_object_id": "090f45538011be79",
+    "isFavorite": false
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/documents/090f45538011be79"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/parent-links",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/parent-links"
+    },
+    {
+      "rel": "parent",
+      "title": "0b0f4553800ea740",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/folders/0b0f4553800ea740"
+    },
+    {
+      "rel": "parent",
+      "title": "0b0f45538004fd48",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/folders/0b0f45538004fd48"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/cabinet",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/cabinets/0c0f45538000252b"
+    },
+    {
+      "rel": "contents",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/contents"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/primary-content",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/contents/content"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/relations",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/relations?related-object-id=090f45538011be79&related-object-role=any"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/object-aspects",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/aspects"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/permission-set",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/permission-set"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/permissions",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/permissions"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/virtual-document-conversion",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/vd-nodes"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/attachable-lifecycles",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/lifecycles?object-id=090f45538011be79"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/object-lifecycle",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/lifecycle"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/checkin-same",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/versions?object-id=090f45538011be79&version-policy=same-version"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/checkin-next-minor",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/versions?object-id=090f45538011be79&version-policy=next-minor"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/checkout",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/lock"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/d2-set-content",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/set-content"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/document-templates",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/document-templates"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/document-annotations",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/annotations"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/property-page",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/property-page"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/audits",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/audits"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/d2-relations",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/d2-object-relations"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/d2-renditions",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/d2-renditions"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/views/c2-view",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/views/c2-view"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/views/c2-print",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/views/c2-print"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/views/c2-export",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/views/c2-export"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/preview-urls",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/preview-urls"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/download-url",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/download-url"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/export-urls",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/export-urls"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/object-sendmail-config",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/object-sendmail-config"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/locate",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/locate?location-type=id&object-value=090f45538011be79"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/comments",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/comments"
+    },
+    {
+      "rel": "version-history",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/versions"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/current-version",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538011be79/versions/current"
+    },
+    {
+      "rel": "http://identifiers.emc.com/linkrel/d2-thumbnail-url",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/documents/090f45538011be79/d2-thumbnail-url"
+    }
+  ]
+}

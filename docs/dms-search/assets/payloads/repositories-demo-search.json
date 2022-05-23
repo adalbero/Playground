@@ -1,0 +1,1708 @@
+{
+  "id": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/search",
+  "title": "Search results",
+  "author": [
+    {
+      "name": "Open Text Documentum"
+    }
+  ],
+  "updated": "2022-05-19T15:59:18.381+00:00",
+  "page": 1,
+  "items-per-page": 25,
+  "total": 56,
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/search?inline=true&include-total=true&items-per-page=25&page=1"
+    },
+    {
+      "rel": "next",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/search?inline=true&include-total=true&items-per-page=25&page=2"
+    },
+    {
+      "rel": "first",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/search?inline=true&include-total=true&items-per-page=25&page=1"
+    },
+    {
+      "rel": "last",
+      "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/search?inline=true&include-total=true&items-per-page=25&page=3"
+    },
+    {
+      "rel": "search",
+      "hreftemplate": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/search{?collections,facet,include-total,inline,items-per-page,locations,object-type,page,q,sort,timezone,view}"
+    }
+  ],
+  "entries": [
+    {
+      "id": "090f4553800c90fa",
+      "title": "SOP-8029121",
+      "author": [
+        {
+          "name": "dmadmin"
+        }
+      ],
+      "summary": ". If pasting text from other sources into the SOP, right click... implementation of a document (e.g. follow up SOP updates required), please..., generally known abbreviations (e.g. SOP) do not need to be... version of the SOP, i.e. list only those that need to be obsoleted",
+      "updated": "2022-05-03T11:16:00.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800c90fa"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800c90fa",
+          "object_name": "SOP-8029121",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "SOP Test 0222 - 02",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-02-22T00:00:00.000+00:00",
+          "english_title": "SOP Test 0222 - 02",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-02-22T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-02-22T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800c90fa"
+          }
+        ]
+      },
+      "score": "1.0",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f45538005f9ae",
+      "title": "SOP-8106681",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8106681 Version : 1.0 SOP-7039031 Business Use Only • ESOPS D2 Author: Sandor Veres... Operating Procedure Doc No. : SOP-8106681 Version : 1.0 SOP-7039031.... : SOP-8106681 Version : 1.0 SOP-7039031 Business Use Only •",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005f9ae"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f45538005f9ae",
+          "object_name": "SOP-8106681",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "SOP-7039031",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "vi",
+          "document_type": "SOP",
+          "effective_date": "2021-11-15T00:00:00.000+00:00",
+          "english_title": "SOP-7039031",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 36,
+          "last_periodic_review_date": "2021-11-15T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2024-11-15T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Clinical Sciences"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005f9ae"
+          }
+        ]
+      },
+      "score": "0.970497190952301",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f45538005f32a",
+      "title": "SOP-8106646",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8106646 Version : 2.0 test afg 1101 SOP A Business Use Only • ESOPS D2 <Instructions... other sources into the SOP, right click and choose ‘Merge... MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005f32a"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f45538005f32a",
+          "object_name": "SOP-8106646",
+          "r_version_label": ["2.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 1101 SOP A",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-01-29T00:00:00.000+00:00",
+          "english_title": "test afg 1101 SOP A",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-01-29T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-01-29T00:00:00.000+00:00",
+          "proposed_effective_date": "2022-01-29T00:00:00.000+00:00",
+          "qm_reference": ["Annual Product Quality Review"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005f32a"
+          }
+        ]
+      },
+      "score": "0.9621458053588867",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f45538005f31d",
+      "title": "SOP-8106670",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8106670 Version : 2.0 test afg 1112 SOP a Business Use Only • ESOPS D2 <Instructions... other sources into the SOP, right click and choose ‘Merge... MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005f31d"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f45538005f31d",
+          "object_name": "SOP-8106670",
+          "r_version_label": ["2.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 1112 SOP a",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep2"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-01-28T00:00:00.000+00:00",
+          "english_title": "test afg 1112 SOP a",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-01-28T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-01-28T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005f31d"
+          }
+        ]
+      },
+      "score": "0.9621458053588867",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f4553800add6f",
+      "title": "SOP-8029106",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8029106 Version : 1.0 test afg 0119 SOP Parent Business Use Only • ESOPS D2... from other sources into the SOP, right click and choose ‘Merge... WHEN MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800add6f"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800add6f",
+          "object_name": "SOP-8029106",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 0119 SOP Parent",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor02",
+          "owner_department": "epm-erc-risk&res-ric-all",
+          "scope": ["cpo-all-site-dep2"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-01-19T00:00:00.000+00:00",
+          "english_title": "test afg 0119 SOP Parent",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-01-19T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-01-19T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800add6f"
+          }
+        ]
+      },
+      "score": "0.9621458053588867",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f455380145d47",
+      "title": "SOP-8102377",
+      "author": [
+        {
+          "name": "dmadmin"
+        }
+      ],
+      "summary": ". If pasting text from other sources into the SOP, right click... implementation of a document (e.g. follow up SOP updates required), please..., generally known abbreviations (e.g. SOP) do not need to be... version of the SOP, i.e. list only those that need to be obsoleted",
+      "updated": "2022-05-17T11:26:53.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145d47"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f455380145d47",
+          "object_name": "SOP-8102377",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test for glb doc",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "ar",
+          "document_type": "SOP",
+          "effective_date": "2022-05-16T00:00:00.000+00:00",
+          "english_title": "test for glb doc",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-05-16T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-05-16T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145d47"
+          }
+        ]
+      },
+      "score": "0.9617850184440613",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f455380145d4b",
+      "title": "SOP-8102378",
+      "author": [
+        {
+          "name": "dmadmin"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8102378 Version : 1... from other sources into the SOP, right click and choose ‘Merge... WHEN MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for Novartis wide/x-functional SOPs describing a process for",
+      "updated": "2022-05-16T13:03:40.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145d4b"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f455380145d4b",
+          "object_name": "SOP-8102378",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 0516 PDF Security",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor02",
+          "owner_department": "cpo-all-site-dep2",
+          "scope": ["cpo-all-site-dep2"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-05-16T00:00:00.000+00:00",
+          "english_title": "test afg 0516 PDF Security",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-05-16T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-05-16T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145d4b"
+          }
+        ]
+      },
+      "score": "0.9612638354301453",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f4553800eabb7",
+      "title": "SOP-8029611",
+      "author": [
+        {
+          "name": "dmadmin"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8029611 Version : 2.0 test SOP OQ Business Use Only • ESOPS D2 <Instructions for... sources into the SOP, right click and choose ‘Merge formatting or ‘... SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for",
+      "updated": "2022-05-05T09:54:20.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800eabb7"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800eabb7",
+          "object_name": "SOP-8029611",
+          "r_version_label": ["2.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test SOP OQ",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-04-13T00:00:00.000+00:00",
+          "english_title": "test",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 36,
+          "last_periodic_review_date": "2022-04-13T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2025-04-13T00:00:00.000+00:00",
+          "proposed_effective_date": "2022-04-13T00:00:00.000+00:00",
+          "qm_reference": [
+            "Access to Medicines",
+            "Animal Welfare",
+            "Annual Product Quality Review",
+            "Anti-Corruption",
+            "Antitrust and Fair Competition",
+            "Artificial Intelligence",
+            "Audit & Inspections",
+            "Business Continuity and Crisis Management",
+            "Change Control",
+            "Clinical Operations",
+            "Clinical Sciences",
+            "Combination Products (incl. whole lifecycle)",
+            "Computerized Systems",
+            "Conflicts of Interest",
+            "Customs and Trade Compliance",
+            "Data and Documentation",
+            "Data Use",
+            "Device Development",
+            "Diversity and Inclusion",
+            "Drug Safety",
+            "Environmental Sustainability",
+            "Exception Handling",
+            "Facilities Design & Qualification",
+            "Fair Employment Practices",
+            "Financial Integrity",
+            "Health and Safety",
+            "Human Rights",
+            "Incident Management",
+            "Information and Cyber Security",
+            "Insider Trading",
+            "Laboratory Operations",
+            "Maintenance & Calibration",
+            "Manufacturing Operations",
+            "Manufacturing Process Transfer",
+            "Master Data Governance",
+            "Materials Management",
+            "N/A Not Applicable",
+            "Packaging and Repackaging",
+            "Preclinical Operations and Clinical Labs",
+            "Product Information, Labeling, and Artwork Processes",
+            "Product Release",
+            "Professional Practices",
+            "QM-8028202, Periodic Product Quality Review (Including Annual Product Review / Product Quality Review (APQR))",
+            "QM-8033183, GxP Computerized System Compliance",
+            "QM-8033509, Novartis Quality Manual",
+            "QM-8033638, Quality Risk Management",
+            "QM-8033682, Third Parties Lifecycle Management",
+            "QM-8033683, QM2.3 - Materials and Incoming Goods Management",
+            "QM-8033684, Qualification and  Training of GxP Personnel",
+            "QM-8033689, Product Release",
+            "QM-8033691, QM3.4 - Handling Deviations and Non-Conforming Product",
+            "QM-8033692, Incident Management",
+            "QM-8033695, Quality Audits",
+            "QM-8033696, QM3.8 - Handling of Customer Technical Complaints",
+            "QM-8033697, QM3.9 - Sampling, Retention and Reference Samples",
+            "QM-8033891, Management of GxP Data and Documentation",
+            "QM-8034548, QM3.11 - Stability Testing",
+            "QM-8034550, QM3.12 - Stability Testing & Shelf Life Determination for Medical Devices",
+            "QM-8034552, Change Control",
+            "QM-8034554, Storage and Handling of Products",
+            "QM-8034555, Returns of Products and Materials",
+            "QM-8034558, QM3.22 - Maintenance and Calibration",
+            "QM-8034662, QM4.1 - Analytical Testing / Method Validation, Including Stability Testing for Preclinical Safety Studies",
+            "QM-8034663, QM4.2 - Planning, Conducting, Analyzing, and Reporting Preclinical Safety Studies",
+            "QM-8034667, QM4.4 - Preclinical Safety Laboratory Equipment",
+            "QM-8034672, QM4.20 - Protection of Human Subjects / Animal Owners",
+            "QM-8034673, QM4.21 - Clinical Program Planning",
+            "QM-8034675, QM4.22 - Clinical Trial Planning and Preparation",
+            "QM-8034676, QM4.23 - Clinical Trial Execution to Database Lock",
+            "QM-8034677, QM4.24 - Clinical Trial Data Analysis and Reporting",
+            "QM-8034681, QM4.26 - Handling Suspected Fraud, Scientific Misconduct, and Persistent Non-Compliance with Regulation in GCP Studies",
+            "QM-8034682, QM4.30 - Analytical Method Validation at NIBR",
+            "QM-8034684, QM4.31 - Design Control at NIBR",
+            "QM-8034686, QM4.35 - Laboratory Testing at NIBR",
+            "QM-8034687, QM4.36 - Life Cycle Management of Human Biological Samples from Clinical Trials",
+            "QM-8034688, QM4.38 - Radiological Imaging at NIBR",
+            "QM-8034689, QM5.3 - Design Control for Medical Devices",
+            "QM-8034692, QM6.2 - Cleanliness Zoning",
+            "QM-8034693, QM6.3 - Validation Master Plan",
+            "QM-8034694, QM6.4 - Water, Steam, Gas and Vacuum Systems",
+            "QM-8034695, QM6.5 - Production Operations and Controls",
+            "QM-8034696, QM6.7 - Process Validation",
+            "QM-8034697, Cleaning Validation",
+            "QM-8034698, QM6.14 - Product Information, Labeling, and Artwork Processes",
+            "QM-8034699, QM6.15 - Reprocessing, Rework, and Recovery",
+            "QM-8034700, Packaging and Repackaging",
+            "QM-8034701, QM6.21 - Microbiological Quality Assurance - Media Fill",
+            "QM-8034702, QM6.22 - Sterilization Validation",
+            "QM-8034703, QM6.23 - Process Validation for Medical Devices",
+            "QM-8034704, Combination Products",
+            "QM-8034705, QM7.1 - Validation, Verification and Transfer of Analytical/ Testing Procedures",
+            "QM-8034706, QM7.2 - Laboratory / Analytical Testing",
+            "QM-8034708, QM7.5 - Viable and non-viable environmental monitoring",
+            "QM-8034709, QM7.6 - Microbiological Quality Assurance - Product Testing",
+            "QM-8034710, QM8.1 - Pharmaco- and Medical Device Vigilance System Organization and Governance",
+            "QM-8034711, QM8.2 - Preclinical Safety Vigilance",
+            "QM-8034712, QM8.3 - Collection and Management of Adverse Events",
+            "QM-8034713, QM8.4 - Analysis and Reporting of Safety Data",
+            "QM-8034714, QM8.5 - Safety Risk Management",
+            "QM-8034715, QM8.6 - Contract Management for Safety Information Exchange",
+            "QM-8038349, QM4.3 - Preclinical Test Facilities, Materials, Water, Gases and Vacuum",
+            "QM-8074666, Distribution and Transport",
+            "Quality Business Development",
+            "Quality Management & Governance",
+            "Research and Development",
+            "Responsible Lobbying",
+            "Sterile Operations",
+            "Third Party Operations",
+            "Third Party Risk Management",
+            "Training",
+            "Validation",
+            "Vigilance",
+            "Warehouse & Distribution"
+          ],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800eabb7"
+          }
+        ]
+      },
+      "score": "0.960471510887146",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f455380145c45",
+      "title": "SOP-8029135",
+      "author": [
+        {
+          "name": "OQSOP01"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8029135 Version : 2... other sources into the SOP, right click and choose ‘Merge... MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for Novartis wide/x-functional SOPs describing a process for all",
+      "updated": "2022-05-16T05:18:00.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145c45"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f455380145c45",
+          "object_name": "SOP-8029135",
+          "r_version_label": ["2.0"],
+          "a_content_type": "msw12",
+          "title": "PA testing 0316 - 01",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-05-16T00:00:00.000+00:00",
+          "english_title": "PA testing 0316 - 01",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-05-16T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-05-16T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145c45"
+          }
+        ]
+      },
+      "score": "0.9602430462837219",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f4553800d3f03",
+      "title": "SOP-8029129",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Doc. No.: SOP-8029129 Version: 1.0 test afg 0310 SOP Import Approvals Name Intentions, signatures Date (UTC) OQQA01_test account, OQQA01 I confirm that the approved imported document is a complete copy of the original, and associated approvals/signatures",
+      "updated": "2022-04-26T05:28:24.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800d3f03"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800d3f03",
+          "object_name": "SOP-8029129",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "pdf",
+          "title": "test afg 0310 SOP Import",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["misc-all-all-test"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-03-10T00:00:00.000+00:00",
+          "english_title": "test afg 0310 SOP Import",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 48,
+          "last_periodic_review_date": "2022-03-07T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2026-03-07T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["N/A Not Applicable"],
+          "lc_state": "Effective Import"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800d3f03"
+          }
+        ]
+      },
+      "score": "0.9568463563919067",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f4553800eab2b",
+      "title": "SOP-8029711",
+      "author": [
+        {
+          "name": "OQSOP01"
+        }
+      ],
+      "summary": "Quality Module Doc No. : SOP-8029711 Version : 1.0 test for SOP... required. Quality Module Doc No. : SOP-8029711 Version : 1.0 test for SOP IMPORT IQ Business Use Only 1 Purpose and Scope 2 Quality... Quality Module Doc No. : SOP-8029711 Version : 1.0 test for SOP IMPORT",
+      "updated": "2022-04-12T14:20:05.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800eab2b"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800eab2b",
+          "object_name": "SOP-8029711",
+          "r_version_label": ["1.0"],
+          "a_content_type": "msw12",
+          "title": "test for SOP IMPORT IQ",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-04-12T00:00:00.000+00:00",
+          "english_title": "test for SOP IMPORT IQ",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 24,
+          "last_periodic_review_date": "2022-04-12T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2024-04-12T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": [
+            "Access to Medicines",
+            "Animal Welfare",
+            "Annual Product Quality Review",
+            "Anti-Corruption",
+            "Antitrust and Fair Competition",
+            "Artificial Intelligence",
+            "Audit & Inspections",
+            "Business Continuity and Crisis Management",
+            "Change Control",
+            "Clinical Operations",
+            "Clinical Sciences",
+            "Combination Products (incl. whole lifecycle)",
+            "Computerized Systems",
+            "Conflicts of Interest",
+            "Customs and Trade Compliance",
+            "Data and Documentation",
+            "Data Use",
+            "Device Development",
+            "Diversity and Inclusion",
+            "Drug Safety",
+            "Environmental Sustainability",
+            "Exception Handling",
+            "Facilities Design & Qualification",
+            "Fair Employment Practices",
+            "Financial Integrity",
+            "Health and Safety",
+            "Human Rights",
+            "Incident Management",
+            "Information and Cyber Security",
+            "Insider Trading",
+            "Laboratory Operations",
+            "Maintenance & Calibration",
+            "Manufacturing Operations",
+            "Manufacturing Process Transfer",
+            "Master Data Governance",
+            "Materials Management",
+            "N/A Not Applicable",
+            "Packaging and Repackaging",
+            "Preclinical Operations and Clinical Labs",
+            "Product Information, Labeling, and Artwork Processes",
+            "Product Release",
+            "Professional Practices",
+            "QM-8028202, Periodic Product Quality Review (Including Annual Product Review / Product Quality Review (APQR))",
+            "QM-8033183, GxP Computerized System Compliance",
+            "QM-8033509, Novartis Quality Manual",
+            "QM-8033638, Quality Risk Management",
+            "QM-8033682, Third Parties Lifecycle Management",
+            "QM-8033683, QM2.3 - Materials and Incoming Goods Management",
+            "QM-8033684, Qualification and  Training of GxP Personnel",
+            "QM-8033689, Product Release",
+            "QM-8033691, QM3.4 - Handling Deviations and Non-Conforming Product",
+            "QM-8033692, Incident Management",
+            "QM-8033695, Quality Audits",
+            "QM-8033696, QM3.8 - Handling of Customer Technical Complaints",
+            "QM-8033697, QM3.9 - Sampling, Retention and Reference Samples",
+            "QM-8033891, Management of GxP Data and Documentation",
+            "QM-8034548, QM3.11 - Stability Testing",
+            "QM-8034550, QM3.12 - Stability Testing & Shelf Life Determination for Medical Devices",
+            "QM-8034552, Change Control",
+            "QM-8034554, Storage and Handling of Products",
+            "QM-8034555, Returns of Products and Materials",
+            "QM-8034558, QM3.22 - Maintenance and Calibration",
+            "QM-8034662, QM4.1 - Analytical Testing / Method Validation, Including Stability Testing for Preclinical Safety Studies",
+            "QM-8034663, QM4.2 - Planning, Conducting, Analyzing, and Reporting Preclinical Safety Studies",
+            "QM-8034667, QM4.4 - Preclinical Safety Laboratory Equipment",
+            "QM-8034672, QM4.20 - Protection of Human Subjects / Animal Owners",
+            "QM-8034673, QM4.21 - Clinical Program Planning",
+            "QM-8034675, QM4.22 - Clinical Trial Planning and Preparation",
+            "QM-8034676, QM4.23 - Clinical Trial Execution to Database Lock",
+            "QM-8034677, QM4.24 - Clinical Trial Data Analysis and Reporting",
+            "QM-8034681, QM4.26 - Handling Suspected Fraud, Scientific Misconduct, and Persistent Non-Compliance with Regulation in GCP Studies",
+            "QM-8034682, QM4.30 - Analytical Method Validation at NIBR",
+            "QM-8034684, QM4.31 - Design Control at NIBR",
+            "QM-8034686, QM4.35 - Laboratory Testing at NIBR",
+            "QM-8034687, QM4.36 - Life Cycle Management of Human Biological Samples from Clinical Trials",
+            "QM-8034688, QM4.38 - Radiological Imaging at NIBR",
+            "QM-8034689, QM5.3 - Design Control for Medical Devices",
+            "QM-8034692, QM6.2 - Cleanliness Zoning",
+            "QM-8034693, QM6.3 - Validation Master Plan",
+            "QM-8034694, QM6.4 - Water, Steam, Gas and Vacuum Systems",
+            "QM-8034695, QM6.5 - Production Operations and Controls",
+            "QM-8034696, QM6.7 - Process Validation",
+            "QM-8034697, Cleaning Validation",
+            "QM-8034698, QM6.14 - Product Information, Labeling, and Artwork Processes",
+            "QM-8034699, QM6.15 - Reprocessing, Rework, and Recovery",
+            "QM-8034700, Packaging and Repackaging",
+            "QM-8034701, QM6.21 - Microbiological Quality Assurance - Media Fill",
+            "QM-8034702, QM6.22 - Sterilization Validation",
+            "QM-8034703, QM6.23 - Process Validation for Medical Devices",
+            "QM-8034704, Combination Products",
+            "QM-8034705, QM7.1 - Validation, Verification and Transfer of Analytical/ Testing Procedures",
+            "QM-8034706, QM7.2 - Laboratory / Analytical Testing",
+            "QM-8034708, QM7.5 - Viable and non-viable environmental monitoring",
+            "QM-8034709, QM7.6 - Microbiological Quality Assurance - Product Testing",
+            "QM-8034710, QM8.1 - Pharmaco- and Medical Device Vigilance System Organization and Governance",
+            "QM-8034711, QM8.2 - Preclinical Safety Vigilance",
+            "QM-8034712, QM8.3 - Collection and Management of Adverse Events",
+            "QM-8034713, QM8.4 - Analysis and Reporting of Safety Data",
+            "QM-8034714, QM8.5 - Safety Risk Management",
+            "QM-8034715, QM8.6 - Contract Management for Safety Information Exchange",
+            "QM-8038349, QM4.3 - Preclinical Test Facilities, Materials, Water, Gases and Vacuum",
+            "QM-8074666, Distribution and Transport",
+            "Quality Business Development",
+            "Quality Management & Governance",
+            "Research and Development",
+            "Responsible Lobbying",
+            "Sterile Operations",
+            "Third Party Operations",
+            "Third Party Risk Management",
+            "Training",
+            "Validation",
+            "Vigilance",
+            "Warehouse & Distribution"
+          ],
+          "lc_state": "Effective Import"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800eab2b"
+          }
+        ]
+      },
+      "score": "0.948999285697937",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f4553801457ca",
+      "title": "SOP-8102371",
+      "author": [
+        {
+          "name": "esopdevapp"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8102371 Version : 1... sources into the SOP, right click and choose ‘Merge formatting or ‘... SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for Novartis wide/x-functional SOPs describing a process for all impacted",
+      "updated": "2022-05-12T11:11:26.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553801457ca"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553801457ca",
+          "object_name": "SOP-8102371",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test doc pq",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "ar",
+          "document_type": "SOP",
+          "effective_date": "2022-05-12T00:00:00.000+00:00",
+          "english_title": "test doc pq",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-05-12T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-05-12T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553801457ca"
+          }
+        ]
+      },
+      "score": "0.9486727714538574",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f4553800e356f",
+      "title": "SOP-8029148",
+      "author": [
+        {
+          "name": "dmadmin"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8029148 Version : 1.0 test afg 0405 SOP Business Use Only • ESOPS D2 <Instructions... sources into the SOP, right click and choose ‘Merge formatting... MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for",
+      "updated": "2022-04-05T15:57:30.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800e356f"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800e356f",
+          "object_name": "SOP-8029148",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 0405 SOP",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor10",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-04-05T00:00:00.000+00:00",
+          "english_title": "test afg 0405 SOP",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-04-05T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-04-05T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800e356f"
+          }
+        ]
+      },
+      "score": "0.9152007699012756",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f45538006a873",
+      "title": "SOP-8106707",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "_Sample Portrait A4.pdf test afg 1111 1 Information Sample Portrait A4 2 Purpose Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquam dapibus ex, eget molestie justo. Proin sapien nisi, sagittis in scelerisque id, condimentum eu erat. Vi",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538006a873"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f45538006a873",
+          "object_name": "SOP-8106707",
+          "r_version_label": ["4.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 1213 a1 - 100 char testing - sop testing sop testing sop testing sop testing sop testing to sop testing sop testing sop testing",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": null,
+          "english_title": "test afg 1213 a1",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2021-12-13T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2022-12-13T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538006a873"
+          }
+        ]
+      },
+      "score": "0.9144062399864197",
+      "terms": ["load", "sop"]
+    },
+    {
+      "id": "090f4553800c90f9",
+      "title": "SOP-8029120",
+      "author": [
+        {
+          "name": "OQSOP01"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8029120 Version : 1.0 SOP Test 0222 - 01 Business Use Only • ESOPS D2 <Instructions... other sources into the SOP, right click and choose ‘Merge formatting... MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for",
+      "updated": "2022-03-24T10:56:46.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800c90f9"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800c90f9",
+          "object_name": "SOP-8029120",
+          "r_version_label": ["1.0"],
+          "a_content_type": "msw12",
+          "title": "SOP Test 0222 - 01",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-02-22T00:00:00.000+00:00",
+          "english_title": "SOP Test 0222 - 01",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-02-22T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-02-22T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["N/A Not Applicable"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800c90f9"
+          }
+        ]
+      },
+      "score": "0.9138614535331726",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f45538005de85",
+      "title": "SOP-8106673",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "SOP-7016933 4.0 20-Oct-2017 Qualification and Maintenance of... 1 Updated Quality Manual, SOP and WP references Section 2 and 3... only for /DEV/NBx/CHBS/NBx-ANALYT Section 4.2 Updated SOP...) SOP-7016933 4.0 20-Oct-2017 Qualification and Maintenance of",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005de85"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f45538005de85",
+          "object_name": "SOP-8106673",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "pdf",
+          "title": "test afg 1112 C2 Fail",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2021-11-12T00:00:00.000+00:00",
+          "english_title": "test afg 1112 C2 Fail",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 48,
+          "last_periodic_review_date": "2021-11-12T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2025-11-12T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538005de85"
+          }
+        ]
+      },
+      "score": "0.9056236743927002",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f45538006e3cc",
+      "title": "TMPL-8029091",
+      "author": [
+        {
+          "name": "OQSOP01"
+        }
+      ],
+      "summary": "). GxP rating According to SOP-7039031, Document Management",
+      "updated": "2022-05-12T12:59:02.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538006e3cc"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f45538006e3cc",
+          "object_name": "TMPL-8029091",
+          "r_version_label": ["1.0"],
+          "a_content_type": "msw12",
+          "title": "test",
+          "document_subtype": "Template",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-01-29T00:00:00.000+00:00",
+          "english_title": "test",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-01-29T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-01-29T00:00:00.000+00:00",
+          "proposed_effective_date": "2022-01-29T00:00:00.000+00:00",
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f45538006e3cc"
+          }
+        ]
+      },
+      "score": "0.9044090509414673",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f455380063aa7",
+      "title": "SOP-8106695",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8106695 Version : 1... into the SOP, right click and choose ‘Merge formatting or ‘Paste... SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for Novartis wide/x-functional SOPs describing a process for all impacted",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380063aa7"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f455380063aa7",
+          "object_name": "SOP-8106695",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test doc",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2021-11-30T00:00:00.000+00:00",
+          "english_title": "test doc",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 48,
+          "last_periodic_review_date": "2021-11-30T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2025-11-30T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Access to Medicines"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380063aa7"
+          }
+        ]
+      },
+      "score": "0.904062032699585",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f455380057244",
+      "title": "SOP-8106662",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8106662 Version : 1... sources into the SOP, right click and choose ‘Merge formatting or ‘... SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for Novartis wide/x-functional SOPs describing a process for all impacted",
+      "updated": "2022-04-26T05:28:23.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380057244"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f455380057244",
+          "object_name": "SOP-8106662",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test doc 2",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1", "cpo-all-site-dep2"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2021-12-14T00:00:00.000+00:00",
+          "english_title": "test doc 2",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2021-12-14T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2022-12-14T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380057244"
+          }
+        ]
+      },
+      "score": "0.904062032699585",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f4553800de341",
+      "title": "SOP-8029139",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Standard Operating Procedure Doc No. : SOP-8029139 Version : 1... other sources into the SOP, right click and choose ‘Merge... MANAGING SOPs FOR LOCAL ENTITIES> QSO Approval: Required ONLY for Novartis wide/x-functional SOPs describing a process for all",
+      "updated": "2022-04-26T05:28:24.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800de341"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800de341",
+          "object_name": "SOP-8029139",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "pa testing 0323 - 01",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-03-23T00:00:00.000+00:00",
+          "english_title": "pa testing 0323 - 01",
+          "gxp_relevant": "yes",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-03-23T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-03-23T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800de341"
+          }
+        ]
+      },
+      "score": "0.904062032699585",
+      "terms": ["SOP", "sop", "SOPs"]
+    },
+    {
+      "id": "090f4553800d871d",
+      "title": "STD-8029133",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Global Standard Doc No. : STD-8029133 Version : 1.0 test sop... other sources into the SOP, right click and choose ‘Merge... required. Global Standard Doc No. : STD-8029133 Version : 1.0 test sop... sop Business Use Only 1 Purpose and Scope This Standard",
+      "updated": "2022-04-26T05:28:24.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800d871d"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800d871d",
+          "object_name": "STD-8029133",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test sop",
+          "document_subtype": "Global Standard",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "ar",
+          "document_type": "SOP",
+          "effective_date": "2022-03-15T00:00:00.000+00:00",
+          "english_title": "test eng",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-03-15T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-03-15T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800d871d"
+          }
+        ]
+      },
+      "score": "0.9035568237304688",
+      "terms": ["sop", "SOP", "SOPs"]
+    },
+    {
+      "id": "090f4553800bb97c",
+      "title": "SOP-8029113",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "(Native) Information Page 1 of 1 Business Use Only • ESOPS D2 Document Number -  SOP-8029113 Title - test afg 0201 O2 msw12 Version - 1.0 Effective Date - Periodic Review Interval - 1 year English Title - test afg 0201 O2 msw12 Document Subtype",
+      "updated": "2022-04-26T05:28:24.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800bb97c"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800bb97c",
+          "object_name": "SOP-8029113",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test afg 0201 O2 msw12",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor02",
+          "owner_department": "cpo-all-site-dep2",
+          "scope": ["cpo-all-site-dep2"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-02-01T00:00:00.000+00:00",
+          "english_title": "test afg 0201 O2 msw12",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-02-01T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-02-01T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800bb97c"
+          }
+        ]
+      },
+      "score": "0.8996301293373108",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f4553800bb98d",
+      "title": "SOP-8029114",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "(Native) Information Page 1 of 1 Business Use Only • ESOPS D2 Document Number -  SOP-8029114 Title - test afg 0201 O2 msw8 Version - 1.0 Effective Date - Periodic Review Interval - 1 year English Title - test afg 0201 O2 msw8 Document Subtype -  Standard",
+      "updated": "2022-04-26T05:28:24.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800bb98d"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800bb98d",
+          "object_name": "SOP-8029114",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw8",
+          "title": "test afg 0201 O2 msw8",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor02",
+          "owner_department": "cpo-all-site-dep2",
+          "scope": ["cpo-all-site-dep2"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-02-01T00:00:00.000+00:00",
+          "english_title": "test afg 0201 O2 msw8",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-02-01T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-02-01T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": ["Animal Welfare"],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800bb98d"
+          }
+        ]
+      },
+      "score": "0.8996301293373108",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f4553800e7dee",
+      "title": "SOP-8029156",
+      "author": [
+        {
+          "name": "HPA_PRABHRAF"
+        }
+      ],
+      "summary": "Doc. No.: SOP-8029156 Version: 1.0 test afg 0411 Unknown Approvals Name Intentions, signatures Date (UTC) Page            of 2 1 #30 0 obj Test Document Page            of 2 2",
+      "updated": "2022-04-26T05:28:24.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800e7dee"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f4553800e7dee",
+          "object_name": "SOP-8029156",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "vsd",
+          "title": "test afg 0411 Unknown",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor02",
+          "owner_department": "cpo-all-site-dep2",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "en",
+          "document_type": "SOP",
+          "effective_date": "2022-04-11T00:00:00.000+00:00",
+          "english_title": "test afg 0411 Unknown",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 36,
+          "last_periodic_review_date": "2022-04-11T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2025-04-11T00:00:00.000+00:00",
+          "proposed_effective_date": "2022-03-11T11:16:32.000+00:00",
+          "qm_reference": [
+            "Access to Medicines",
+            "Animal Welfare",
+            "Annual Product Quality Review",
+            "Anti-Corruption",
+            "Antitrust and Fair Competition",
+            "Artificial Intelligence",
+            "Audit & Inspections",
+            "Business Continuity and Crisis Management",
+            "Change Control",
+            "Clinical Operations",
+            "Clinical Sciences",
+            "Combination Products (incl. whole lifecycle)",
+            "Computerized Systems",
+            "Conflicts of Interest",
+            "Customs and Trade Compliance",
+            "Data and Documentation",
+            "Data Use",
+            "Device Development",
+            "Diversity and Inclusion",
+            "Drug Safety",
+            "Environmental Sustainability",
+            "Exception Handling",
+            "Facilities Design & Qualification",
+            "Fair Employment Practices",
+            "Financial Integrity",
+            "Health and Safety",
+            "Human Rights",
+            "Incident Management",
+            "Information and Cyber Security",
+            "Insider Trading",
+            "Laboratory Operations",
+            "Maintenance & Calibration",
+            "Manufacturing Operations",
+            "Manufacturing Process Transfer",
+            "Master Data Governance",
+            "Materials Management",
+            "N/A Not Applicable",
+            "Packaging and Repackaging",
+            "Preclinical Operations and Clinical Labs",
+            "Product Information, Labeling, and Artwork Processes",
+            "Product Release",
+            "Professional Practices",
+            "QM-8028202, Periodic Product Quality Review (Including Annual Product Review / Product Quality Review (APQR))",
+            "QM-8033183, GxP Computerized System Compliance",
+            "QM-8033509, Novartis Quality Manual",
+            "QM-8033638, Quality Risk Management",
+            "QM-8033682, Third Parties Lifecycle Management",
+            "QM-8033683, QM2.3 - Materials and Incoming Goods Management",
+            "QM-8033684, Qualification and  Training of GxP Personnel",
+            "QM-8033689, Product Release",
+            "QM-8033691, QM3.4 - Handling Deviations and Non-Conforming Product",
+            "QM-8033692, Incident Management",
+            "QM-8033695, Quality Audits",
+            "QM-8033696, QM3.8 - Handling of Customer Technical Complaints",
+            "QM-8033697, QM3.9 - Sampling, Retention and Reference Samples",
+            "QM-8033891, Management of GxP Data and Documentation",
+            "QM-8034548, QM3.11 - Stability Testing",
+            "QM-8034550, QM3.12 - Stability Testing & Shelf Life Determination for Medical Devices",
+            "QM-8034552, Change Control",
+            "QM-8034554, Storage and Handling of Products",
+            "QM-8034555, Returns of Products and Materials",
+            "QM-8034558, QM3.22 - Maintenance and Calibration",
+            "QM-8034662, QM4.1 - Analytical Testing / Method Validation, Including Stability Testing for Preclinical Safety Studies",
+            "QM-8034663, QM4.2 - Planning, Conducting, Analyzing, and Reporting Preclinical Safety Studies",
+            "QM-8034667, QM4.4 - Preclinical Safety Laboratory Equipment",
+            "QM-8034672, QM4.20 - Protection of Human Subjects / Animal Owners",
+            "QM-8034673, QM4.21 - Clinical Program Planning",
+            "QM-8034675, QM4.22 - Clinical Trial Planning and Preparation",
+            "QM-8034676, QM4.23 - Clinical Trial Execution to Database Lock",
+            "QM-8034677, QM4.24 - Clinical Trial Data Analysis and Reporting",
+            "QM-8034681, QM4.26 - Handling Suspected Fraud, Scientific Misconduct, and Persistent Non-Compliance with Regulation in GCP Studies",
+            "QM-8034682, QM4.30 - Analytical Method Validation at NIBR",
+            "QM-8034684, QM4.31 - Design Control at NIBR",
+            "QM-8034686, QM4.35 - Laboratory Testing at NIBR",
+            "QM-8034687, QM4.36 - Life Cycle Management of Human Biological Samples from Clinical Trials",
+            "QM-8034688, QM4.38 - Radiological Imaging at NIBR",
+            "QM-8034689, QM5.3 - Design Control for Medical Devices",
+            "QM-8034692, QM6.2 - Cleanliness Zoning",
+            "QM-8034693, QM6.3 - Validation Master Plan",
+            "QM-8034694, QM6.4 - Water, Steam, Gas and Vacuum Systems",
+            "QM-8034695, QM6.5 - Production Operations and Controls",
+            "QM-8034696, QM6.7 - Process Validation",
+            "QM-8034697, Cleaning Validation",
+            "QM-8034698, QM6.14 - Product Information, Labeling, and Artwork Processes",
+            "QM-8034699, QM6.15 - Reprocessing, Rework, and Recovery",
+            "QM-8034700, Packaging and Repackaging",
+            "QM-8034701, QM6.21 - Microbiological Quality Assurance - Media Fill",
+            "QM-8034702, QM6.22 - Sterilization Validation",
+            "QM-8034703, QM6.23 - Process Validation for Medical Devices",
+            "QM-8034704, Combination Products",
+            "QM-8034705, QM7.1 - Validation, Verification and Transfer of Analytical/ Testing Procedures",
+            "QM-8034706, QM7.2 - Laboratory / Analytical Testing",
+            "QM-8034708, QM7.5 - Viable and non-viable environmental monitoring",
+            "QM-8034709, QM7.6 - Microbiological Quality Assurance - Product Testing",
+            "QM-8034710, QM8.1 - Pharmaco- and Medical Device Vigilance System Organization and Governance",
+            "QM-8034711, QM8.2 - Preclinical Safety Vigilance",
+            "QM-8034712, QM8.3 - Collection and Management of Adverse Events",
+            "QM-8034713, QM8.4 - Analysis and Reporting of Safety Data",
+            "QM-8034714, QM8.5 - Safety Risk Management",
+            "QM-8034715, QM8.6 - Contract Management for Safety Information Exchange",
+            "QM-8038349, QM4.3 - Preclinical Test Facilities, Materials, Water, Gases and Vacuum",
+            "QM-8074666, Distribution and Transport",
+            "Quality Business Development",
+            "Quality Management & Governance",
+            "Research and Development",
+            "Responsible Lobbying",
+            "Sterile Operations",
+            "Third Party Operations",
+            "Third Party Risk Management",
+            "Training",
+            "Validation",
+            "Vigilance",
+            "Warehouse & Distribution"
+          ],
+          "lc_state": "Effective"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f4553800e7dee"
+          }
+        ]
+      },
+      "score": "0.8996301293373108",
+      "terms": ["SOP", "sop"]
+    },
+    {
+      "id": "090f455380145871",
+      "title": "SOP-8102370",
+      "author": [
+        {
+          "name": "esopdevapp"
+        }
+      ],
+      "summary": "SOP-8102370 test for local doc test for local doc",
+      "updated": "2022-05-12T09:30:01.000+00:00",
+      "links": [
+        {
+          "rel": "edit",
+          "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145871"
+        }
+      ],
+      "content": {
+        "name": "item",
+        "type": "esops_doc",
+        "definition": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/types/esops_doc",
+        "properties": {
+          "r_object_id": "090f455380145871",
+          "object_name": "SOP-8102370",
+          "r_version_label": ["1.0", "CURRENT"],
+          "a_content_type": "msw12",
+          "title": "test for local doc",
+          "document_subtype": "Standard Operating Procedure",
+          "responsible_author": "OQAuthor01",
+          "owner_department": "cpo-all-site-dep1",
+          "scope": ["cpo-all-site-dep1"],
+          "document_language": "ar",
+          "document_type": "SOP",
+          "effective_date": "2022-05-12T00:00:00.000+00:00",
+          "english_title": "test for local doc",
+          "gxp_relevant": "no",
+          "periodic_review_interval": 12,
+          "last_periodic_review_date": "2022-05-12T00:00:00.000+00:00",
+          "legacy_doc_number": null,
+          "next_periodic_review_date": "2023-05-12T00:00:00.000+00:00",
+          "proposed_effective_date": null,
+          "qm_reference": [
+            "Access to Medicines",
+            "Animal Welfare",
+            "Annual Product Quality Review"
+          ],
+          "lc_state": "Effective Import"
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://esops-devapp.eu.novartis.net/D2-REST/repositories/esopdevapp/objects/090f455380145871"
+          }
+        ]
+      },
+      "score": "0.8742803335189819",
+      "terms": ["load", "sop"]
+    }
+  ]
+}

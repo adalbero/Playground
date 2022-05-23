@@ -1,0 +1,56 @@
+{
+    "id": "https://esops-devint.eu.novartis.net/D2-REST/repositories",
+    "title": "Repositories",
+    "author": [
+      {
+        "name": "Open Text Documentum"
+      }
+    ],
+    "updated": "2022-05-19T15:28:34.542+00:00",
+    "page": 1,
+    "items-per-page": 10000,
+    "total": 2,
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://esops-devint.eu.novartis.net/D2-REST/repositories?inline=false"
+      }
+    ],
+    "entries": [
+      {
+        "id": "https://esops-devint.eu.novartis.net/D2-REST/repositories/gr_dm02d/",
+        "title": "gr_dm02d",
+        "summary": "ESOPS DEVINTCT Global Repository",
+        "updated": "2022-05-19T15:28:34.542+00:00",
+        "published": "2022-05-19T15:28:34.542+00:00",
+        "links": [
+          {
+            "rel": "edit",
+            "href": "https://esops-devint.eu.novartis.net/D2-REST/repositories/gr_dm02d/"
+          }
+        ],
+        "content": {
+          "type": "application/json",
+          "src": "https://esops-devint.eu.novartis.net/D2-REST/repositories/gr_dm02d/"
+        }
+      },
+      {
+        "id": "https://esops-devint.eu.novartis.net/D2-REST/repositories/esopdev/",
+        "title": "esopdev",
+        "summary": "ESOPS DEVINTCT Repository",
+        "updated": "2022-05-19T15:28:34.543+00:00",
+        "published": "2022-05-19T15:28:34.543+00:00",
+        "links": [
+          {
+            "rel": "edit",
+            "href": "https://esops-devint.eu.novartis.net/D2-REST/repositories/esopdev/"
+          }
+        ],
+        "content": {
+          "type": "application/json",
+          "src": "https://esops-devint.eu.novartis.net/D2-REST/repositories/esopdev/"
+        }
+      }
+    ]
+  }
+  
