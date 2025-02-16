@@ -26,6 +26,7 @@ stopID
 ## name_dm
 
 7003205 | Hagsfeld Schäferstraße
+7003104 | Hagsfeld
 7003102 | Hagsfeld Hagsfeld Bahnhof
 7000231 | Hagsfeld Hagsfeld Süd
 7001001 | KIT/Campus South (U)

@@ -3,6 +3,7 @@ const axios = require('axios');
 const STOP = {
     HAGSFELD_BAHNHOF: '7003102',
     HAGSFELD_SUD: '7000231',
+    HAGSFELD_SCHAFERSTRASSE: '7003205',
 }
 
 const LINE = {
@@ -18,6 +19,21 @@ const LINE = {
                 stop: STOP.HAGSFELD_SUD,
                 toCenter: '1',
                 fromCenter: '2',
+            }
+        ]
+    },
+    BUS_32: {
+        symbol: '32',
+        stops: [
+            {
+                stop: STOP.HAGSFELD_SUD,
+                toCenter: 'A',
+                fromCenter: 'B',
+            },
+            {
+                stop: STOP.HAGSFELD_SCHAFERSTRASSE,
+                toCenter: 'A',
+                fromCenter: 'B',
             }
         ]
     }
@@ -111,7 +127,7 @@ function addDays(date, days) {
 
 (async () => {
     console.log('BEGIN');
-    const result = await getTimeTable(STOP.HAGSFELD_SUD, LINE.S2, DIRECTION.FROM_CENTER);
+    const result = await getTimeTable(STOP.HAGSFELD_SUD, LINE.BUS_32, DIRECTION.FROM_CENTER);
     console.log(result);
 })();
 
