@@ -1,0 +1,16 @@
+{
+  "name": "kvv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.9",
+    "request": "^2.88.2"
+  }
+}

@@ -1,0 +1,333 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "KVV",
+    "collectionId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+    "dateExported": "2025-02-16T19:19:59.711Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d4790d55-8b6c-48b8-a905-4de7f426862e",
+            "colId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+            "containerId": "",
+            "name": "StopTable",
+            "url": "https://www.kvv.de/tunnelEfaDirect.php?action=XSLT_DM_REQUEST&std3_mapDMMacro=true&language=en&name_dm=7003102&type_dm=stopID&itdLPxx_template=tooltip&outputFormat=JSON",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-16T11:53:33.777Z",
+            "modified": "2025-02-16T13:00:47.611Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "action",
+                    "value": "XSLT_DM_REQUEST",
+                    "isPath": false
+                },
+                {
+                    "name": "std3_mapDMMacro",
+                    "value": "true",
+                    "isPath": false
+                },
+                {
+                    "name": "language",
+                    "value": "en",
+                    "isPath": false
+                },
+                {
+                    "name": "name_dm",
+                    "value": "7003102",
+                    "isPath": false
+                },
+                {
+                    "name": "type_dm",
+                    "value": "stopID",
+                    "isPath": false
+                },
+                {
+                    "name": "itdLPxx_template",
+                    "value": "tooltip",
+                    "isPath": false
+                },
+                {
+                    "name": "useRealtime",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "itdLPxx_template",
+                    "value": "tableResults",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "outputFormat",
+                    "value": "JSON",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "199c4c55-c621-4063-b122-be253e3005e8",
+            "colId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+            "containerId": "",
+            "name": "Journey",
+            "url": "https://projekte.kvv-efa.de/json?CoordSystem=WGS84&JourneyKey=j25-kvv-21012-H-E.409",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-16T12:47:55.189Z",
+            "modified": "2025-02-16T16:57:38.604Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "CoordSystem",
+                    "value": "WGS84",
+                    "isPath": false
+                },
+                {
+                    "name": "JourneyKey",
+                    "value": "j25-kvv-21012-H-E.409",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "cff3e535-30dc-4250-accd-697b0f1d2508",
+            "colId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+            "containerId": "",
+            "name": "DEPARTURE_MONITOR",
+            "url": "https://projekte.kvv-efa.de/sl3/XSLT_DM_REQUEST?name_dm=7003102&type_dm=stop&useOnlyStops=1&useRealtime=1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-02-16T13:03:06.817Z",
+            "modified": "2025-02-16T16:38:19.872Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "outputFormat",
+                    "value": "JSON",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "coordOutputFormat",
+                    "value": "WGS84[dd.ddddd]",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "depType",
+                    "value": "stopEvents",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "locationServerActive",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "mode",
+                    "value": "direct",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "name_dm",
+                    "value": "7003102",
+                    "isPath": false
+                },
+                {
+                    "name": "type_dm",
+                    "value": "stop",
+                    "isPath": false
+                },
+                {
+                    "name": "useOnlyStops",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "useRealtime",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "10",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "itdLPxx_template",
+                    "value": "dmresults",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "c7286c89-096f-46be-83fd-44bd1ccbfcc7",
+            "colId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+            "containerId": "",
+            "name": "DM2",
+            "url": "https://projekte.kvv-efa.de/sl3/XSLT_DM_REQUEST?outputFormat=JSON&language=en&stateless=1&coordOutputFormat=WGS84[DD.ddddd]&type_dm=stop&name_dm=7003102&itdDate=20250217&itdTime=0000&useRealtime=1&mode=direct",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2025-02-16T14:55:07.779Z",
+            "modified": "2025-02-16T19:17:03.817Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "outputFormat",
+                    "value": "JSON",
+                    "isPath": false
+                },
+                {
+                    "name": "language",
+                    "value": "en",
+                    "isPath": false
+                },
+                {
+                    "name": "stateless",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "coordOutputFormat",
+                    "value": "WGS84[DD.ddddd]",
+                    "isPath": false
+                },
+                {
+                    "name": "coordOutputFormatTail",
+                    "value": "7",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "type_dm",
+                    "value": "stop",
+                    "isPath": false
+                },
+                {
+                    "name": "name_dm",
+                    "value": "7003102",
+                    "isPath": false
+                },
+                {
+                    "name": "itdDate",
+                    "value": "20250217",
+                    "isPath": false
+                },
+                {
+                    "name": "itdTime",
+                    "value": "0000",
+                    "isPath": false
+                },
+                {
+                    "name": "useRealtime",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "mode",
+                    "value": "direct",
+                    "isPath": false
+                },
+                {
+                    "name": "ptOptionsActive",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "deleteAssignedStops_dm",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "useProxFootSearch",
+                    "value": "0",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "mergeDep",
+                    "value": "1",
+                    "isDisabled": true,
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "1000",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ],
+            "postReq": {
+                "inlineScripts": [
+                    {
+                        "script": [
+                            "console.log(tc.response.json.departureList",
+                            ".filter(dep => dep.servingLine.symbol === 'S2' && dep.platform === '4')",
+                            ".map(dep => {",
+                            "  return {",
+                            "    line: dep.servingLine.symbol,",
+                            "    direction: dep.servingLine.direction,",
+                            "    platform: dep.platformName,",
+                            "    time: `${dep.dateTime.hour}:${dep.dateTime.minute}`,",
+                            "    real: `${dep.realDateTime?.hour ?? dep.dateTime.hour}:${dep.realDateTime?.minute ?? dep.dateTime.minute}`,",
+                            "  }",
+                            "}));",
+                            ""
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "d30550b9-c659-442e-8c76-a44a683dc281",
+            "colId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+            "containerId": "",
+            "name": "TRIP",
+            "url": "https://projekte.kvv-efa.de/sl3/XSLT_TRIP_REQUEST2",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-02-16T16:28:04.927Z",
+            "modified": "2025-02-16T16:28:31.954Z",
+            "headers": []
+        },
+        {
+            "_id": "11f78d0c-3b06-46fd-949f-0da2a94601b2",
+            "colId": "1ad5d839-9920-4cf7-8944-b1c336ce350a",
+            "containerId": "",
+            "name": "TIMETABLE",
+            "url": "https://projekte.kvv-efa.de/sl3/XSLT_SELTT_REQUEST?outputFormat=JSON&name_dm=7000231&type_dm=stop",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2025-02-16T16:41:02.931Z",
+            "modified": "2025-02-16T16:42:56.367Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "outputFormat",
+                    "value": "JSON",
+                    "isPath": false
+                },
+                {
+                    "name": "name_dm",
+                    "value": "7000231",
+                    "isPath": false
+                },
+                {
+                    "name": "type_dm",
+                    "value": "stop",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "tL21Tvw6YCpbSRslM268_o59XPs5TXNFY1zsSxIGJ6IpBp5rUGh3WeH2ZShfkUb3D605Wp9zxvzIaEPWbrN9Hw"
+}
