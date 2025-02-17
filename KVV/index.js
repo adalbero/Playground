@@ -4,6 +4,7 @@ const STOP = {
     HAGSFELD_BAHNHOF: '7003102',
     HAGSFELD_SUD: '7000231',
     HAGSFELD_SCHAFERSTRASSE: '7003205',
+    HAGSFELD_FACHERBAD: '7000405',
 }
 
 const LINE = {
@@ -34,6 +35,21 @@ const LINE = {
                 stop: STOP.HAGSFELD_SCHAFERSTRASSE,
                 toCenter: 'A',
                 fromCenter: 'B',
+            },
+            {
+                stop: STOP.HAGSFELD_FACHERBAD,
+                toCenter: 'A',
+                fromCenter: 'B',
+            }
+        ]
+    },
+    TRAM_4: {
+        symbol: '4',
+        stops: [
+            {
+                stop: STOP.HAGSFELD_FACHERBAD,
+                toCenter: '1',
+                fromCenter: '2',
             }
         ]
     }
@@ -120,14 +136,32 @@ function formatTime(dateTime) {
 }
 
 function addDays(date, days) {
-    var result = new Date(date);
+    const result = new Date(date);
     result.setDate(result.getDate() + days);
     return result;
 }
 
+function csv(result) {
+    const [sat, sun, weeday] = result;
+    const lines = [];
+    lines.push(sat.stop);
+    lines.push(sat.line);
+    lines.push(sat.destination);
+
+    lines.push('WEEKDAY');
+    lines.push(...weeday.timetable);
+    lines.push('SAT');
+    lines.push(...sat.timetable);
+    lines.push('SUN');
+    lines.push(...sun.timetable);
+
+    return lines.join('\n');
+}
+
 (async () => {
     console.log('BEGIN');
-    const result = await getTimeTable(STOP.HAGSFELD_SUD, LINE.BUS_32, DIRECTION.FROM_CENTER);
+    const result = await getTimeTable(STOP.HAGSFELD_BAHNHOF, LINE.S2, DIRECTION.TO_CENTER);
     console.log(result);
+    console.log(csv(result));
 })();
 
